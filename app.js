@@ -26,3 +26,12 @@ if(pastCareer === 'yes' || pastCareer === 'y') {
   console.log('WRONG, a good Chef has to start somewhere don\'t they?');
 }
 
+var siblingRivals = prompt('Do I have any sisters?');
+siblingRivals = siblingRivals.toLowerCase();
+
+if(siblingRivals === 'yes' || siblingRivals === 'y') {
+  console.log('Incorrect... Although I do have 3 sister-in-laws... but no blood sisters.');
+} else {
+  console.log('Correct! I have 3 older brothers, all of which are married. So I technically have sisters...in-law.');
+}
+
