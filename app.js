@@ -59,5 +59,5 @@ marriedLife = marriedLife.toLowerCase();
 if(marriedLife === 'yes' || marriedLife === 'y') {
   console.log('Correct!! I have been happily married for just over 4 years! Just celebrated our anniversary in October.');
 } else {
-  console.log('Nope, I have been married to my best friend for over 4 year!');
+  console.log('Nope, I have been married to my best friend for over 4 years!');
 }
