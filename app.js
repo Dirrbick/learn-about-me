@@ -35,3 +35,11 @@ if(siblingRivals === 'yes' || siblingRivals === 'y') {
   console.log('Correct! I have 3 older brothers, all of which are married. So I technically have sisters...in-law.');
 }
 
+var collegeDegree = prompt('Have I earned a bachelors degree?');
+collegeDegree = collegeDegree.toLowerCase();
+
+if(collegeDegree === 'yes' || collegeDegree === 'y') {
+  console.log('Nope! Thought about it but I only got an Associates Degree in Culinary Arts');
+} else {
+  console.log('Correct! I got my Associates in Culinary Arts but never went for my Bachelors degree.');
+}
