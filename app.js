@@ -52,3 +52,12 @@ if(lifeOrigin === 'yes' || lifeOrigin === 'y') {
 } else {
   console.log('How did you know?? I was born in Wisconsin and lived most of my life in Minnesota.. yes I no longer have the Minnesota accent...');
 }
+
+var marriedLife = prompt('Do you think that I am married?');
+marriedLife = marriedLife.toLowerCase();
+
+if(marriedLife === 'yes' || marriedLife === 'y') {
+  console.log('Correct!! I have been happily married for just over 4 years! Just celebrated our anniversary in October.');
+} else {
+  console.log('Nope, I have been married to my best friend for over 4 year!');
+}
