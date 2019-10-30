@@ -43,3 +43,12 @@ if(collegeDegree === 'yes' || collegeDegree === 'y') {
 } else {
   console.log('Correct! I got my Associates in Culinary Arts but never went for my Bachelors degree.');
 }
+
+var lifeOrigin = prompt('Am I originally from Washington State?');
+lifeOrigin = lifeOrigin.toLowerCase();
+
+if(lifeOrigin === 'yes' || lifeOrigin === 'y') {
+  console.log('Far from... I was born in Wisconsin and lived most of my life in Minnesoata!');
+} else {
+  console.log('How did you know?? I was born in Wisconsin and lived most of my life in Minnesota.. yes I no longer have the Minnesota accent...');
+}
