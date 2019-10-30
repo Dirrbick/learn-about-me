@@ -16,3 +16,13 @@ if(userName === 'bob' || userName === 'vern') {
 } else {
   console.log('I hope you enjoy learning about me ' + userName + '.');
 }
+
+var pastCareer = prompt('Do you think that I used to work at fastfood restaurants?');
+pastCareer = pastCareer.toLowerCase();
+
+if(pastCareer === 'yes' || pastCareer === 'y') {
+  console.log('That is correct! I have worked in 3 separate fastfood chains. One of which was McDonald\'s for 6 years!');
+} else {
+  console.log('WRONG, a good Chef has to start somewhere don\'t they?');
+}
+
