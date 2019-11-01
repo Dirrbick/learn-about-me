@@ -85,15 +85,3 @@ if(marriedLife === 'yes' || marriedLife === 'y') {
   // console.log('Nope, I have been married to my best friend for over 4 years!');
 }
 
-var numericalGuess = prompt('How many 1st cousins do I have on one side of the family?');
-console.log('You answered, ', numericalGuess);
-
-if (numericalGuess === '26') {
-  alert('Amazing! You got it! Good guess!');
-} else if( numericalGuess < '26') {
-  alert('Amazingly good guess...but...it is too low!');
-} else if(numericalGuess > '26') {
-  alert('Really good guess! It is too high!!');
-}
-
-while (numericalGuess === '26');
