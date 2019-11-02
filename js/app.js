@@ -86,15 +86,14 @@ if(marriedLife === 'yes' || marriedLife === 'y') {
 }
 
 // for loop that asks a question 4 times and stops when the correct answer is given using 'break'
-
+var numericalGuess = prompt('Question 6: How many 1st cousins do I have on one side of the family?');
 for (var i = 1; i < 5; i++) {
-  var numericalGuess = prompt('Question 6: How many 1st cousins do I have on one side of the family?');
-  if (numericalGuess === '26') {
+  if (numericalGuess === 26) {
     alert('You got it! Good Guess!'); console.log('You answered Correct!: 26 cousins'); break;
-  } else if (numericalGuess < '26') {
-    alert('Too low!');
-  } else if (numericalGuess > '26') {
-    alert('Too high!');
+  } else if (numericalGuess < 26) {
+    numericalGuess = prompt('Too low! Guess again');
+  } else if (numericalGuess > 26) {
+    numericalGuess = prompt('Too high! Guess again');
   }
 
   console.log('you answered: ', numericalGuess);
@@ -102,15 +101,15 @@ for (var i = 1; i < 5; i++) {
 alert('The correct answer is 26 cousins.');
 
 // I need to add question 7 here still
-var statesLived = ['wisconsin', 'minnesota', 'texas', 'california', 'montana'];
+// var statesLived = ['wisconsin', 'minnesota', 'texas', 'california', 'montana'];
 
-for ( var i = 0; i < 6; i++) {
-  var whichState = prompt('Which state did I live in before I moved to Washington?');
-  if (whichState === statesLived[i]) {
-    alert('That\'s correct!'); break;
-  } else {
-    alert('Incorrect, try again.');
-  }
-}
+// for ( var i = 0; i < 6; i++) {
+//   var whichState = prompt('Which state did I live in before I moved to Washington?');
+//   if (whichState === statesLived[i]) {
+//     alert('That\'s correct!'); break;
+//   } else {
+//     alert('Incorrect, try again.');
+//   }
+// }
 
-console.log('Here are the possible answers you could have chosen from; ', statesLived[0,1,2,3,4,5]);
+
