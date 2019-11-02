@@ -22,3 +22,17 @@
 //   }
 //   console.log('you answered: ', numericalGuess);
 // }
+
+// still working on getting the array to work with a loop
+
+for ( var i = 0; i < 6; i++) {
+  var statesLived = ['wisconsin', 'minnesota', 'texas', 'california', 'montana'];
+  var whichState = prompt('Which state did I live in before I moved to Washington?');
+  if (whichState === statesLived) {
+    alert('That\'s correct!'); break;
+  } else {
+    alert('Incorrect, try again.');
+  }
+}
+
+console.log('Here are the possible answers you could have chosen from; ', statesLived[0,1,2,3,4,5]);
