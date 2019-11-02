@@ -100,3 +100,17 @@ for (var i = 1; i < 5; i++) {
   console.log('you answered: ', numericalGuess);
 }
 alert('The correct answer is 26 cousins.');
+
+// I need to add question 7 here still
+var statesLived = ['wisconsin', 'minnesota', 'texas', 'california', 'montana'];
+
+for ( var i = 0; i < 6; i++) {
+  var whichState = prompt('Which state did I live in before I moved to Washington?');
+  if (whichState === statesLived[i]) {
+    alert('That\'s correct!'); break;
+  } else {
+    alert('Incorrect, try again.');
+  }
+}
+
+console.log('Here are the possible answers you could have chosen from; ', statesLived[0,1,2,3,4,5]);
