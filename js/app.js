@@ -25,7 +25,7 @@ if(userName === 'bob' || userName === 'vern') {
   alert('I hope you enjoy learning about me ' + userName + '.');
 }
 
-var pastCareer = prompt('Do you think that I used to work at fastfood restaurants?');
+var pastCareer = prompt('Question 1: Do you think that I used to work at fastfood restaurants?');
 pastCareer = pastCareer.toLowerCase();
 console.log('Did I work at fastfood restaurants?: ' + pastCareer);
 
@@ -37,7 +37,7 @@ if(pastCareer === 'yes' || pastCareer === 'y') {
   alert('WRONG, a good Chef has to start somewhere don\'t they?');
 }
 
-var siblingRivals = prompt('Do I have any blood sisters?');
+var siblingRivals = prompt('Question 2: Do I have any blood sisters?');
 siblingRivals = siblingRivals.toLowerCase();
 console.log('Do I have sisters: ' + siblingRivals);
 
@@ -49,7 +49,7 @@ if(siblingRivals === 'no' || siblingRivals === 'n') {
   alert('Incorrect... Although I do have 3 sister-in-laws... but no blood sisters.');
 }
 
-var collegeDegree = prompt('Have I earned a bachelors degree?');
+var collegeDegree = prompt('Question 3: Have I earned a bachelors degree?');
 collegeDegree = collegeDegree.toLowerCase();
 console.log('Do I have a diploma?: ', collegeDegree);
 
@@ -61,7 +61,7 @@ if(collegeDegree === 'no' || collegeDegree === 'n') {
   // console.log('Nope! Thought about it but I only got an Associates Degree in Culinary Arts');
 }
 
-var lifeOrigin = prompt('Am I originally from Washington State?');
+var lifeOrigin = prompt('Question 4: Am I originally from Washington State?');
 lifeOrigin = lifeOrigin.toLowerCase();
 console.log('Am I from Washington?: ', lifeOrigin);
 
@@ -73,7 +73,7 @@ if(lifeOrigin === 'no' || lifeOrigin === 'n') {
   // console.log('Far from... I was born in Wisconsin and lived most of my life in Minnesoata!');
 }
 
-var marriedLife = prompt('Do you think that I am married?');
+var marriedLife = prompt('Question 5: Do you think that I am married?');
 marriedLife = marriedLife.toLowerCase();
 console.log('Am I married?: ', marriedLife);
 
@@ -88,7 +88,7 @@ if(marriedLife === 'yes' || marriedLife === 'y') {
 // for loop that asks a question 4 times and stops when the correct answer is given using 'break'
 
 for (var i = 1; i < 5; i++) {
-  var numericalGuess = prompt('How many 1st cousins do I have on one side of the family?');
+  var numericalGuess = prompt('Question 6: How many 1st cousins do I have on one side of the family?');
   if (numericalGuess === '26') {
     alert('You got it! Good Guess!'); console.log('You answered Correct!: 26 cousins'); break;
   } else if (numericalGuess < '26') {
@@ -96,5 +96,7 @@ for (var i = 1; i < 5; i++) {
   } else if (numericalGuess > '26') {
     alert('Too high!');
   }
+
   console.log('you answered: ', numericalGuess);
 }
+alert('The correct answer is 26 cousins.');
