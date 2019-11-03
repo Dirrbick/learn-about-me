@@ -103,14 +103,15 @@ function fifthQ(){
 function sixthQ(){
   // for loop that asks a question 4 times and stops when the correct answer is given using 'break'
   var numericalGuess = prompt('Question 6: How many 1st cousins do I have on one side of the family?');
+  numericalGuess = parseInt(numericalGuess);
   for (var i = 1; i < 5; i++) {
-    if (numericalGuess === '26') {
+    if (numericalGuess === 26) {
       alert('You got it! Good Guess!');
       yourScore ++;
       break;
-    } else if (numericalGuess < '26') {
+    } else if (numericalGuess < 26) {
       numericalGuess = prompt('Too low! Guess again');
-    } else if (numericalGuess > '26') {
+    } else if (numericalGuess > 26) {
       numericalGuess = prompt('Too high! Guess again');
     }
 
