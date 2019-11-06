@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+h1 { 
+  background-color: lightblue;
+  border: 9px groove navy;
+  height: 100px;
+  width: max 50%;
+  margin: 0 25%;
+  text-align: center;
+  font-size: 80px;
+}
+
+img {
+  margin: 20px 39%;
+  height: 20%;
+  width: 20%;
+  border: 15px ridge orangered;
+}
+
+main {
+  background-color: #475CFF;
+  width: 75%;
+  height: 50em;
+  margin: 10px 12%;
+  border-radius: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.foodList {
+  float: left;
+  margin: 10px 20px;
+}
+
+.shortStory {
+  border: 5px groove #FF6429;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px 10%;
+  height: 24em;
+  width: 48em;
+  background-color: #2031B3;
+}
+
+p {
+  text-indent: 50px;
+  margin: 30px 20px 0 20px;
+  color: darkred;
+  font-style: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}

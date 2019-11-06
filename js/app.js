@@ -156,6 +156,7 @@ function seventhQ(){
       stateQuestion = prompt('you are incorrect, guess again');
     }
   }
+  alert('Here are all of the answers ' + statesLived)
 }
 
 firstQ();
