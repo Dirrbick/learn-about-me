@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  /* background-image: url("../images/waterfall.jpg"); */
 }
 
 h1 { 
@@ -25,6 +26,7 @@ main {
   height: 50em;
   margin: 10px 12%;
   border-radius: 50px;
+  border: 5px double #FF6429;
 }
 
 h2 {
@@ -34,7 +36,30 @@ h2 {
 
 .foodList {
   float: left;
-  margin: 10px 20px;
+  margin: 30px 20px 10px 85px;
+  border: 5px solid #FF6429;
+  width: 23em;
+  height: 13em;
+  padding-left: 10px;
+}
+
+.foodList h2 {
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+.careerList {
+  float: right;
+  margin: 30px 70px 10px 10px;
+  border: 5px solid #FF6429;
+  width: 23em;
+  padding-left: 10px;
+  height: 13em;
+}
+
+.careerList h2 {
+  text-decoration: underline;
+  margin: 10px 0;
 }
 
 .shortStory {
@@ -47,10 +72,26 @@ h2 {
   background-color: #2031B3;
 }
 
+.biography {
+  font-size: 50px;
+  font-weight: bold;
+}
+
 p {
   text-indent: 50px;
   margin: 30px 20px 0 20px;
-  color: darkred;
+  color: black;
   font-style: bold;
   font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+ol {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+
 }
